@@ -26,6 +26,10 @@ body{
   right: 0;
   margin: auto auto;
   display:block;
+  -webkit-transition: 300ms ease all;
+   -moz-transition: 300ms ease all;
+   -o-transition: 300ms ease all;
+   transition: 300ms ease all;
 }
 
 #pai{
@@ -43,19 +47,18 @@ body{
 }
 
 #sobre{
-  background-color: magenta;
+  background-color: #ff3232;
 }
 #design{
-  background-color: yellow;
+  background-color: #3232ff;
 }
-#coding{background-color: cyan;}
+#coding{background-color: #19b919;}
 
 .conteudo{
   vertical-align: top;
-  margin: 0 10px;
+  margin: 4hv auto 0;
   width: 100%;
   height: 80vh;
-  min-height: 75vh;
   margin: 8vh auto;
   background-color: #f5f5f5;
   display: inline-block;
@@ -65,7 +68,7 @@ body{
   display: inline-block;
   position:relative;
   top:-4.5vh;
-  left: 5.8vw;
+  left: 5.3vw;
   width: 15vw;
   height: 8vh;
   float:left;
@@ -81,7 +84,7 @@ body{
 .texto{
   display: inline-block;
   height: 66.9vh;
-  margin: -2vh 1vh;
+  margin: -2vh 0vh;
 }
 
 #sobre .texto, #coding .texto{
@@ -101,10 +104,7 @@ body{
 
 #design img{
   border-radius: 2px;
-  -webkit-transition: 300ms ease all;
-   -moz-transition: 300ms ease all;
-   -o-transition: 300ms ease all;
-   transition: 300ms ease all;
+  cursor:pointer;
 }
 
 .container-design[data-img='1'] img{
@@ -116,9 +116,19 @@ body{
 .container-design[data-img='3'] img{
     width:15vw;
 }
+.container-design[data-img='4'] img{
+    width:22vw;
+}
+.container-design[data-img='5'] img{
+    width:10vw;
+    margin:2vh 1vh;
+}
+.container-design[data-img='6'] img{
+    width:15vw;
+}
 
 .menu{
-  margin: 0 auto 2vh;
+  margin: 0 auto 1vh;
   padding: 0 auto;
   width: 20vw;
   height: 2vw;
@@ -147,4 +157,10 @@ body{
   background-color: #afafaf;
 }
 
-h3{margin: 0vh auto 3vh}
+h3{margin: 0vh auto 0vh;}
+p{
+  padding:0 auto;
+  margin: 0vh auto 1vh;
+  text-align: center;
+}
+h5{margin: 0vh auto 1vh;}
