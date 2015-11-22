@@ -3,29 +3,56 @@
   <head>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.elevatezoom" charset="utf-8"></script>
+    <script src="index.js" charset="utf-8"></script>
     <link rel="stylesheet" href="index.css" charset="utf-8">
-    <title></title>
+    <title>Portifólio ;)</title>
   </head>
   <body>
+    <div id="fundo"><img src=""/></div>
     <div id="pai">
       <div id="sobre" class="rgb">
         <div class="conteudo">
-          <div class="titulo">SOBRE</div>
-          <div class="texto">Curso Física na USP, sou programador e estudo design. <br/><br/> Boa parte do que está neste portifólio eu aprendi de maneira independente, lendo livros, vendo tutoriais, pesquisando em fóruns, perguntando para amigos e tentando desenvolver cada vez mais um bom senso. <br/><br/> Ademais, sou pianista (algumas das minhas composições estão disponíveis no <a href="http://soundcloud.com/zapiano">soundcloud</a>), gosto de cozinhar, jogar online, desenhar as pessoas durante a aula e dançar. <br/><br/> Para mais informações, entre em contato através do meu e-mail: 2pedro8@gmail.com</div>
+          <div class="titulo">sobre</div>
+          <div class="texto">Oi, eu sou o Pedro! Curso Física na USP e estudo programação e design. <br/><br/> Boa parte do que está neste portifólio eu aprendi de maneira independente, lendo livros, vendo tutoriais, pesquisando em fóruns, perguntando para amigos e tentando desenvolver cada vez mais um bom senso. <br/><br/> Ademais, sou pianista (algumas das minhas composições estão disponíveis no <a href="http://soundcloud.com/zapiano">soundcloud</a>), gosto de cozinhar, jogar online, desenhar as pessoas durante a aula e dançar. <br/><br/> Para mais informações, entre em contato através do meu e-mail: 2pedro8@gmail.com</div>
         </div>
       </div><div id="design" class="rgb">
         <div class="conteudo">
-          <div class="titulo">DESIGN</div>
+          <div class="titulo">design</div>
           <div class="texto">
-            <img src="img1.jpg"/>
-            <img src="img2.png"/>
-            <img src="img3.png"/>
+            <div class="menu">
+              <div data-img="1" data-onoff="on" class="botao-menu"></div>
+              <div data-img="2" data-onoff="off" class="botao-menu"></div>
+              <div data-img="3" data-onoff="off" class="botao-menu"></div>
+              <div data-img="4" data-onoff="off" class="botao-menu"></div>
+            </div>
+            <div data-img="1"  class="container-design">
+              <h3>Flyer Aulas Particulares</h1>
+              <p>Flyer para divulgação em redes sociais feito para um grupo de alunos de Física da USP.</p>
+              <img data-scale="3" src="img1.jpg"/>
+            </div>
+            <div data-img="2" class="container-design">
+              <h3>Site Gerenciamento de Estoque</h1>
+              <p>Flyer para divulgação em redes sociais feito para um grupo de alunos de Física da USP.</p>
+              <img data-scale="3" src="img2_1.png"/>
+              <img data-scale="3" src="img2_2.png"/>
+            </div>
+            <div data-img="3" class="container-design">
+              <h3>Curriculo</h1>
+              <p>Flyer para divulgação em redes sociais feito para um grupo de alunos de Física da USP.</p>
+              <img data-scale="2" src="img3.png"/>
+            </div>
+            <div data-img="4" class="container-design">
+              <h3>Site Gerenciamento de Estoque</h1>
+              <p>Flyer para divulgação em redes sociais feito para um grupo de alunos de Física da USP.</p>
+              <img src="img5.png"/>
+            </div>
           </div>
         </div>
       </div><div id="coding" class="rgb"><div class="conteudo">
-        <div class="titulo">CODING</div>
+        <div class="titulo">coding</div>
           <div class="texto">Estudo Web Development há um ano seguintto o ótimo currículo do site <a href="http://theodinproject.com">Odin Project</a> e boa parte do que fiz está no GitHub<br/><br> Vou destacar aqui algumas coisas específicas que considero interessantes e os respecctivos links. Além disso, os sites da seção Design foram desenvolvidos por mim.
             <ul>
               <li><a href="#">Logo Android Animado (CSS)</a></li>
