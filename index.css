@@ -81,7 +81,7 @@ li{
   margin:2vh 0;
 }
 
-@media screen and (min-width:992px){
+@media (min-width:992px){
   body{
   /*width:100%;*/
   margin: 0 0;
