@@ -83,6 +83,7 @@ li{
 }
 
 .container-design{display: none;}
+#fundo img{display: none;}
 
 @-ms-viewport{
   body{
