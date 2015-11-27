@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
       $('.botao-menu').click(function(){
         if (screen.availWidth > 992){
           var img = $(this).data("img");
@@ -10,7 +9,7 @@ $(document).ready(function(){
         }
       });
 
-      $("img").click(function(){
+      $(".container-design img").click(function(){
         if (screen.availWidth>992){
           var src = $(this).attr('src');
           var width = $(this).css('width');
@@ -22,7 +21,7 @@ $(document).ready(function(){
 
       $("#fundo").click(function(){
         if (screen.availWidth > 992){
-          $('img').css({'-ms-transform':'none','-webkit-transform':'none','transform':'none','z-index':'2'});
+          $('.contaier-design img').css({'-ms-transform':'none','-webkit-transform':'none','transform':'none','z-index':'2'});
           $(this).css({'display':'none'});
         }  
       });

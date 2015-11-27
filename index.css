@@ -82,6 +82,8 @@ li{
   margin:2vh 0;
 }
 
+.container-design{display: none;}
+
 @-ms-viewport{
   body{
   margin: 0 0;
@@ -166,6 +168,7 @@ li{
   li{
     margin:2vh 0;
   }
+  .container-design{display: none;}
 }
 
 @media (min-width:992px){
@@ -177,6 +180,10 @@ li{
   font-family: 'Raleway';
   overflow-y: auto;
   }
+
+  .container-design2{display: none;}
+  .container-design{display: block;}
+
 
   #fundo{
     display:none;
