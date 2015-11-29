@@ -13,12 +13,12 @@ body{
 #fundo{display:none;}
 
 #header a{color: white;}
-#header a:hover{color:grey;}
+#header a:hover{color:rgb(143,0,20);}
 #header{
 	display: inline-block;
 	margin: 0 0;
 	padding: 10px 0px 5px;
-	background-color: black;
+	background-color: #1a1a1a;
 	color:white;
 	font-family: "Sorts Mill Goudy";
 	font-size: 18px;
@@ -395,7 +395,11 @@ margin:0 0;
 	  width:10vw;
 	}
 	.container-design[data-img='6'] img{
-	  width:20vw;
+	  width:15vw;
+	}
+
+	.container-design img{
+		border: 1px #d9d9d9 solid;
 	}
 
 	.container-design{display: block;}
