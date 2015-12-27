@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Inauguração"
+title:  "Opening"
 date:   2015-12-27 02:43:00 -0200
-categories: inauguração inicial
+categories: opening first
 ---
 This is my first post and it's gonna be short, just to inaugurate the blog. This blog is more like a notebook, a personal (but public xD) study and record place. I'm studyin coding and design for one year now and I'm finally starting to get the hang of it, so I've decided to make this blog - and hope I can look back a few years from now and see that I've learned a lot. 
 
