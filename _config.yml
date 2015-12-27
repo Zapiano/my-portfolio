@@ -10,7 +10,7 @@ title: Yet another coder guy
 email: 2pedro8@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I'm a newby. In life, I mean. I am a just graduated physicist looking for winds of change, studying web development and design. Meanwhile I'm a pianist, a bartender and a LoL player (but I'm a cool guy... I guess).
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/my-portfolio" # the subpath of your site, e.g. /blog
 url: "http://zapiano.github.io/my-portfolio" # the base hostname & protocol for your site
 twitter_username: zapiano
 github_username:  zapiano
