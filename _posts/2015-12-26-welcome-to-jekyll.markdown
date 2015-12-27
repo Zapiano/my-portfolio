@@ -6,6 +6,10 @@ categories: inauguração inicial
 ---
 This is my first post and it's gonna be short, just to inaugurate the blog. This blog is more like a notebook, a personal (but public xD) study and record place. I'm studyin coding and design for one year now and I'm finally starting to get the hang of it, so I've decided to make this blog - and hope I can look back a few years from now and see that I've learned a lot. 
 
+One thing I notice is that some people explain things specting you to begin from "zero" or from the point they suppose you are and go on from there following just they're guide. But reallity isn't like this: you're probably reading three or four tutorials at the same time, each one explaining how to do some different stuff in a different way and you're trying to put the pieces together (or, at least, that's almost always my case...) and in that cases probably the best thing one can do is just EXPLAIN whats is happening, why doing that way and...! Anyway, that's what I'll try to do here (or try to learn to do).
+
+---
+
 Currently I'm working in a company named Pegcar as junior web developer using ruby (but not rails) and learning many frameworks at the same time, so for now I'm jut gonna write down everything I (think I) understand. The point of doing this is not just that it helps me solidify my knoledge but also because I suffer too much reading tutorials on the internet made by people who know too much but don't remember the time he or she was a newby and don't remember what are the non-obvious stuff for a beginner. So I thought no one better than a beginner to understand the problems of a beginner, rigth?
 
 About the site layout, I'm gonna change it soon, but for now I'm using the standard layout that comes when you start a new jekyll blog (jekyll is one of the new stuff I'm learging and it's really awesome!)
