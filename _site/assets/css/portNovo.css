@@ -1,0 +1,433 @@
+body{
+	background-image: url("background.jpg");
+	padding: 0 0;
+	margin: 0 0;
+	text-align: center;
+}
+
+#pai{
+		width:100%;
+		height: 100%;
+	}
+
+#fundo{display:none;}
+
+#header a{color: white;}
+#header a:hover{color:rgb(143,0,20);}
+#header{
+	display: inline-block;
+	margin: 0 0;
+	padding: 10px 0px 5px;
+	background-color: #1a1a1a;
+	color:white;
+	font-family: "Sorts Mill Goudy";
+	font-size: 18px;
+	width:100%;
+}
+#header-left{
+	margin: 0 0;
+	padding: 0 0 0 10px;
+	float:left;
+	text-align: left;
+} 
+#header-right{
+	margin:0 0;
+	padding: 0 10px 0 0;
+	float:right;
+}
+#header-left div{text-align: left;}
+#header-right div{text-align: right;}
+#mail{font-family: "Wingding"}
+i{margin-left:10px;}
+
+.titulo{
+	margin: 10px auto;
+	padding: 0px 0;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	border-style:double;
+	border-color: white;
+	text-shadow:-2px 2px black;
+}
+
+#about .titulo{
+	font-family: "Chunkfive";
+	background-color: rgb(143,0,20);
+	font-size: 22px;
+}
+
+#design .titulo{
+	font-family: "Geo";
+	background-color: rgb(0,38,66);
+	font-size: 22px;
+}
+#coding .titulo{
+	font-family: "Press Start 2P";
+	background-color: rgb(0,58,30);
+	font-size: 18px;
+}
+
+.conteudo{
+	margin: 20px 30px 20px;
+	text-indent: initial;
+	font-family: "Tallys";
+	font-size: 18px;
+	-webkit-hyphens: auto;
+  	-moz-hyphens: auto;
+  	-ms-hyphens: auto;
+  	hyphens: auto;
+  	text-align: left;
+}
+.conteudo p{
+	text-indent: 1.5em;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+#menu{display: none;}
+
+#menu{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#menu div{
+	margin: 0 5px;
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 40px;
+}
+.botao-menu[data-onoff='on']{background-color: #3399ff;}
+.botao-menu[data-onoff='off']{
+	background-color: rgb(0,38,66);
+  }
+
+#menu div:hover{
+	background-color:#99ccff;
+	cursor: pointer;
+}
+
+.container-design2[data-img='1'] img{
+width: 60vw;
+}
+.container-design2[data-img='2'] img{
+width: 60vw;
+}
+.container-design2[data-img='3'] img{
+  width:60vw;
+}
+.container-design2[data-img='4'] img{
+  width:60vw;
+}
+.container-design2[data-img='5'] img{
+  width:45vw;
+}
+.container-design2[data-img='6'] img{
+  width:60vw;
+}
+
+.container-design2{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container-design2 h3{margin: 4vh auto 0vh;}
+.container-design2 p{
+padding:0 auto;
+margin: 0vh auto 1vh;
+text-align: center;
+}
+.container-design2 h5{margin: 0vh auto 1vh;}
+
+.container-design{display: none;}
+
+ul{
+list-style: none;
+padding:0 0;
+margin: 10px 0;
+text-align: center;
+}
+li{
+margin:0 0;
+}
+
+#about a{color:red;}
+#about a:visited{color:red;}
+#about a:hover{color:blue;}
+
+
+#coding a{color:green;}
+#coding a:visited{color:green;}
+#coding a:hover{color:blue;}
+
+.container-design{display: none;}
+#fundo img{display: none;}
+
+@-ms-viewport{
+	body{
+	background-image: url("background.jpg");
+	padding: 0 0;
+	margin: 0 0;
+	}
+	#header a{color: white;}
+	#header a:hover{color:grey;}
+	#header{
+		display: inline-block;
+		margin: 0 0;
+		padding: 10px 0px;
+		background-color: black;
+		color:white;
+		font-family: "Sorts Mill Goudy";
+		width:100%;
+	}
+	#header-left{
+		margin: 0 0;
+		padding: 0 0 0 10px;
+		float:left;
+		text-align: left;
+	} 
+	#header-right{
+		margin:0 0;
+		padding: 0 10px 0 0;
+		float:right;
+	}
+	#header-left div{text-align: left;}
+	#header-right div{text-align: right;}
+	#mail{font-family: "Wingding"}
+	i{margin-left:10px;}
+
+	.titulo{
+		margin: 10px auto;
+		padding: 0px 0;
+		width: 140px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		color: white;
+		border-style:double;
+		border-color: white;
+		text-shadow:-2px 2px black;
+	}
+
+	#about .titulo{
+		font-family: "Chunkfive";
+		background-color: rgb(143,0,20);
+		font-size: 22px;
+	}
+
+	#design .titulo{
+		font-family: "Geo";
+		background-color: rgb(0,38,66);
+		font-size: 22px;
+	}
+	#coding .titulo{
+		font-family: "Press Start 2P";
+		background-color: rgb(0,58,30);
+		font-size: 18px;
+	}
+
+	.conteudo{
+		margin: 20px 40px 20px;
+		text-indent: initial;
+		font-family: "Tallys";
+		font-size: 18px;
+		-webkit-hyphens: auto;
+	  	-moz-hyphens: auto;
+	  	-ms-hyphens: auto;
+	  	hyphens: auto;
+	  	text-align: left;
+	}
+	.conteudo p{
+		text-indent: 1.5em;
+		margin: 0 0;
+		padding: 0 0;
+	}
+
+	#menu{
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#menu div{
+		margin: 0 5px;
+		width: 15px;
+		height: 15px;
+		display: inline-block;
+		border-radius: 40px;
+	}
+	.botao-menu[data-onoff='on']{background-color: #3399ff;}
+	.botao-menu[data-onoff='off']{
+		background-color: rgb(0,38,66);
+	  }
+
+	#menu div:hover{
+		background-color:#99ccff;
+		cursor: pointer;
+	}
+
+	.container-design2[data-img='1'] img{
+	width: 60vw;
+	}
+	.container-design2[data-img='2'] img{
+	width: 60vw;
+	}
+	.container-design2[data-img='3'] img{
+	  width:60vw;
+	}
+	.container-design2[data-img='4'] img{
+	  width:60vw;
+	}
+	.container-design2[data-img='5'] img{
+	  width:45vw;
+	}
+	.container-design2[data-img='6'] img{
+	  width:60vw;
+	}
+
+	.container-design2{
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.container-design2 h3{margin: 4vh auto 0vh;}
+	.container-design2 p{
+	padding:0 auto;
+	margin: 0vh auto 1vh;
+	text-align: center;
+	}
+	.container-design2 h5{margin: 0vh auto 1vh;}
+	.rgb{
+	  margin: 0 auto;
+	  display:inline-block;
+	}
+
+	.container-design{display: none;}
+
+	ul{
+	list-style: none;
+	padding:0 0;
+	margin: 10px 0;
+	}
+	li{
+	margin:0 0;
+	}
+	#coding a{color:green;}
+	#coding a:visited{color:green;}
+	#coding a:hover{color:blue;}	
+}
+
+@media (min-width:992px){
+
+	#header{padding: 15px 0 10px;}
+	#header-left{padding:0 0 0 50px;}
+	#header-right{padding:0 50px 0 0;}
+
+	#fundo{
+	    display:none;
+   	    padding: 0 0;
+   	    margin: auto auto;
+	    position:absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    z-index:2;
+	    background-color: hsla(360, 0%, 20%, 0.5);
+	    height: 100%;
+	  }
+
+	  #fundo img{
+	  	display: inline-block;
+	    position:absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    margin: auto auto;
+	    padding: 0 0;
+	    -webkit-transition: 300ms ease all;
+	     -moz-transition: 300ms ease all;
+	     -o-transition: 300ms ease all;
+	     transition: 300ms ease all;
+	  }
+
+	#menu{display: block;}
+
+	.colunas{
+		text-align: center;
+		margin: 0 auto;
+		width: 33%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.conteudo{font-size: 20px;}
+	#about .conteudo{
+		margin-left: 40px;
+		margin-right: 0;
+	}
+	#design .conteudo{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	#coding .conteudo{
+		margin-right: 40px;
+		margin-left: 0;
+	}
+
+	.container-design[data-img='1'] img{
+	width: 20vw;
+	}
+	.container-design[data-img='2'] img{
+	width: 20vw;
+	}
+	.container-design[data-img='3'] img{
+	  width:18vw;
+	}
+	.container-design[data-img='4'] img{
+	  width:20vw;
+	}
+	.container-design[data-img='5'] img{
+	  width:10vw;
+	}
+	.container-design[data-img='6'] img{
+	  width:15vw;
+	}
+
+	.container-design img{
+		border: 1px #d9d9d9 solid;
+	}
+
+	.container-design{display: block;}
+	.container-design2{display: none;}
+
+	.container-design{
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	.container-design h3{
+		margin: 4vh auto 0vh;
+	}
+
+	.container-design p{
+		padding:0 auto;
+		margin: 0vh auto 1vh;
+		text-align: center;
+	}
+	.container-design h5{
+		margin: 0vh auto 1vh;
+	}
+
+	.container-design[data-onoff="off"]{
+		display: none;
+	}
+
+	#coding .conteudo{text-align: left;}
+
+	.titulo{font-size:54px;}
+}
