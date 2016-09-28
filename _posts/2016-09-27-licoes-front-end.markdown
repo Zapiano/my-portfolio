@@ -25,7 +25,7 @@ Eu conheço duas ferramentas que podem me ajudar nisso: [Jasmine](http://jasmine
 Este catálogo serve pra ajudar no diálogo entre design e frontend. Ele deve conter as cores principais do site, as fontes e tamanhos dos principais elementos e, talvez mais importante que tudo isso, os elementos básicos do site como botões, box de imagem, etc. Isso ajuda tanto a equipe de design quanto a de front a manterem um padrão tanto no estilo quanto no código.
 
 #### Nomes dos ids e classes que 'conectem' javascript e css
-Inicialmente eu estava convencido a ir na direção contrária a esta: a de desacoplar css e javscript. Os dois jeitos de fazer isso que eu encontrei em muitas referências são adicionando uma classe separado para ser usada pelo javascript ou adicionar um data-<something>='true', também pra ser usado só pelo javascript. Essas duas abordagens servem para que, se uma classe precisar ser modificada por conta de design, o script não seja afetado.
+Inicialmente eu estava convencido a ir na direção contrária a esta: a de desacoplar css e javscript. Os dois jeitos de fazer isso que eu encontrei em muitas referências são adicionando uma classe separado para ser usada pelo javascript ou adicionar um data-something='true', também pra ser usado só pelo javascript. Essas duas abordagens servem para que, se uma classe precisar ser modificada por conta de design, o script não seja afetado.
 
 Eu mudei minha opinião sobre esse assunto ao ler o úlltimo comentário [deste post](https://github.com/suitcss/suit/blob/master/doc/design-principles.md). Basicamente a ideia é que não faz sentido desacoplar 'forma e função'. Quando você fala que uma caneca, por ser uma caneca, deve ter um formato específico pra poder conter liquidos, ela consequentemente te permite algumas ações (como beber algo nela) e a forma e a função estão conectadas e o jeito de evitar problemas de javascript é simplesmente tendo um código de javascript bem testado.
 
@@ -41,7 +41,7 @@ Como na realidade o que eu tenho é uma cozinha bagunçada, é preciso escolher 
 
 - Fazer um catálogo ligando design e front. Esse catálogo **deve** ser feito com a colaboração da equipe de design, pois ele serve pra **melhorar** a comunicação. No começo basta colocar alguns poucos elementos mas, a partir da hora que o catálogo estive pronto, toda vez que uma tarefa usar algum elemento que ainda não existe no catálogo, ele deve ser adicionado lá - e com o passar do tempo tanto a equipe de design quanto a de front devem policiar a si mesmas e uns aos outros para não haver desvios indesejados.
 
-- Todo novo javascript que for escrito deve usar classes que façam sentido de acordo com esse 'acoplamento' de css e javascript. Por exemplo, se um elemento tem três classes: .button, .roundade e .green, um script que determina ações de botão deve chamar a primeira classe e não a segunda ou terceira.
+- Todo novo javascript que for escrito deve usar classes que façam sentido de acordo com esse 'acoplamento' de css e javascript. Por exemplo, se um elemento tem três classes: .button, .active e .green, um script que determina ações de botão deve chamar a primeira classe e não a segunda ou terceira.
 
 ### De volta para o futuro
 Se isso for feito direito, conforme o tempo passa alguns elementos velhos 'indesejados' irão ficar obsoletos (eu já observei isso acontencedo) e daí basta eliminá-los. O projeto pode até nunca chegar naquele mundo ideal, mas eu espero que entre três e seis meses eu conseguirei ter um projeto muito mais organizado e bem estruturado.
