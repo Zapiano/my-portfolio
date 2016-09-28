@@ -6,10 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Yet another coder guy
+title: Aprendiz de front-end
 email: 2pedro8@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a newby. In life, I mean. I am a just graduated physicist looking for winds of change, studying web development and design. Meanwhile I'm a pianist, a bartender and a LoL player (but I'm a cool guy... I guess).
+  Há cerca de um ano comecei a trabalhar como desenvolvedor front-end e
+  recentemente tenho me deparado com a necessidade de registrar minhas
+  descobertas, observações, para poder amadurecer na área. Este blog será
+  o espaço para isto.
 baseurl: "/my-portfolio" # the subpath of your site, e.g. /blog
 url: "http://zapiano.github.io/my-portfolio" # the base hostname & protocol for your site
 twitter_username: zapiano
