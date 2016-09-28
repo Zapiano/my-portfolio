@@ -13,8 +13,8 @@ description: > # this means to ignore newlines until "baseurl:"
   recentemente tenho me deparado com a necessidade de registrar minhas
   descobertas, observações, para poder amadurecer na área. Este blog será
   o espaço para isto.
-baseurl: "/my-portfolio" # the subpath of your site, e.g. /blog
-url: "http://zapiano.github.io/my-portfolio" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://zapiano.com.br" # the base hostname & protocol for your site
 twitter_username: zapiano
 github_username:  zapiano
 comments: true
