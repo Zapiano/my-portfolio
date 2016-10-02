@@ -16,7 +16,7 @@ Tenho passado os últimos dias lendo e conversando com desenvolvedores de front-
 No mundo ideal eu gostaria que meu projeto tivesse as seguintes características:
 
 #### Nomenclatura de classes e ids consistente
-Creio que as duas convenções mais famosas que existem são [BEM](http://getbem.com/naming/i) e [SUIT](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md). Não vou entrar em detalhes aqui sobre a diferença entre elas porque no fim das contas me parece que o mais importante é ter um padrão consistente, independente de qual seja (com ressalvas).
+Creio que as duas convenções mais famosas que existem são [BEM](http://getbem.com/naming/) e [SUIT](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md). Não vou entrar em detalhes aqui sobre a diferença entre elas porque no fim das contas me parece que o mais importante é ter um padrão consistente, independente de qual seja (com ressalvas).
 
 #### Javascript testado
 Eu conheço duas ferramentas que podem me ajudar nisso: [Jasmine](http://jasmine.github.io/) e [Karma](https://karma-runner.github.io/1.0/index.html). Não decidi qual delas usar mas, novamente, num primeiro momento meu foco é usar ALGUMA, e isso é melhor do que não ter nenhum teste no front.
@@ -27,7 +27,7 @@ Este catálogo serve pra ajudar no diálogo entre design e frontend. Ele deve co
 #### Nomes dos ids e classes que 'conectem' javascript e css
 Inicialmente eu estava convencido a ir na direção contrária a esta: a de desacoplar css e javscript. Os dois jeitos de fazer isso que eu encontrei em muitas referências são adicionando uma classe separado para ser usada pelo javascript ou adicionar um data-something='true', também pra ser usado só pelo javascript. Essas duas abordagens servem para que, se uma classe precisar ser modificada por conta de design, o script não seja afetado.
 
-Eu mudei minha opinião sobre esse assunto ao ler o úlltimo comentário [deste post](https://github.com/suitcss/suit/blob/master/doc/design-principles.md). Basicamente a ideia é que não faz sentido desacoplar 'forma e função'. Quando você fala que uma caneca, por ser uma caneca, deve ter um formato específico pra poder conter liquidos, ela consequentemente te permite algumas ações (como beber algo nela) e a forma e a função estão conectadas e o jeito de evitar problemas de javascript é simplesmente tendo um código de javascript bem testado.
+Eu mudei minha opinião sobre esse assunto ao ler o úlltimo comentário [deste post](https://coderwall.com/p/qktuzw/decouple-javascript-classes-from-css-ones-by-using-prefix). Basicamente a ideia é que não faz sentido desacoplar 'forma e função'. Quando você fala que uma caneca, por ser uma caneca, deve ter um formato específico pra poder conter liquidos, ela consequentemente te permite algumas ações (como beber algo nela) e a forma e a função estão conectadas e o jeito de evitar problemas de javascript é simplesmente tendo um código de javascript bem testado.
 
 O lema aqui deve ser: se é pra manter javascript e css acoplados, isso deve ser feito usando classes que acoplem bem esses dois aspectos do elemento.
 
