@@ -1,0 +1,120 @@
+html, body, main, p, h1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+    vertical-align: baseline;
+    border: 0;
+  }
+
+h1, h2, h3, p{
+  font-family: sans-serif;
+}
+
+p{
+  font-size: 13px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+nav{
+   background-color: beige;
+}
+
+
+#header{
+  padding: 10px 0px;
+  margin-bottom: 10px;
+}
+
+#wrapper{
+    max-width: 90%;
+    position:relative;
+    margin: 0 auto;
+}
+
+#main{
+    padding-bottom: 30px;
+}
+
+.header-title{
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.header-list{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.header-content{
+  display:inline-block;
+  margin: 3px 7px;
+  font-size: 14px;
+}
+
+.image{
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.image-ecomunica{
+  background: url("images/ecomunica.png") no-repeat center / 100% auto;
+}
+
+.image-infancia{
+  background: url("images/infancia.png") no-repeat center / 100% auto;
+}
+
+.image-auto-retrato{
+  background: url("images/auto-retrato.jpg") no-repeat center / 100% auto;
+}
+
+.image-dhyan{
+  background: url("images/dhyan.jpg") no-repeat center / 100% auto;
+}
+
+.image-selfie{
+  background: url("images/selfie.jpg") no-repeat center / 100% auto;
+}
+
+.main-content{
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+.paragraph{
+  padding: 5px 0px;
+
+}
+
+@media only screen and (min-device-width: 1200px){
+  .header-content{
+    margin: 20px 10px;
+  }
+
+  .header-title{
+    padding: 20px 10px; 
+  }
+
+  p{
+    font-size: 16px;
+  }
+
+  .image{
+     height: 250px;
+     width: 450px;
+  }
+  
+  .paragraph{
+    padding: 10px 0px;
+
+}
+
+
+}
