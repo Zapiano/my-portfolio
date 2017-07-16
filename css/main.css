@@ -1,0 +1,39 @@
+#main{
+  padding-bottom: 30px;
+}
+.image{
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.image-ecomunica{
+  background: url("images/ecomunica.png") no-repeat center / 100% auto;
+}
+
+.image-infancia{
+  background: url("images/infancia.png") no-repeat center / 100% auto;
+}
+
+.image-auto-retrato{
+  background: url("images/auto-retrato.jpg") no-repeat center / 100% auto;
+}
+
+.image-dhyan{
+  background: url("images/dhyan.jpg") no-repeat center / 100% auto;
+}
+
+.image-selfie{
+  background: url("images/selfie.jpg") no-repeat center / 100% auto;
+}
+
+.main-content{
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+@media only screen and (min-device-width: 1200px){
+  .image{
+    height: 250px;
+    width: 450px;
+  }
+}
