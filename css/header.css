@@ -1,34 +1,68 @@
-#header{
-  padding: 10px 0px;
-  margin-bottom: 10px;
-}
-
+/*
+ * Header Title
+ *
+ */
 
 .header-title{
-  width: 250px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   padding: 10px 0px;
 }
 
-.header-list{
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-}
-
-.header-content{
-  display:inline-block;
-  margin: 3px 7px;
-  font-size: 14px;
+.header-title h1 {
+  color: #25408F;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 @media only screen and (min-device-width: 1200px){
-  .header-content{
-    margin: 20px 10px;
-  }
-
   .header-title{
     padding: 20px 10px;
+  }
+}
+
+
+
+
+/*
+ * Header List
+ *
+ */
+
+.header-list {
+  background-color: #D2232A;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-list li {
+  display:inline-block;
+  margin: 4px 7px;
+  font-size: 15px;
+  min-width: 50px;
+}
+
+.header-list a {
+  color: white;
+  padding: 2px 6px;
+  text-decoration: none;
+  border-bottom: 1px white solid;
+}
+
+.header-list .unselected a:hover {
+  border-bottom: 3px white solid;
+}
+
+.header-list .selected a {
+  background-color: white;
+  color: #D2232A;
+  border-bottom: none;
+}
+
+@media only screen and (min-device-width: 1200px){
+  .header-list li {
+    margin: 20px 10px;
   }
 }

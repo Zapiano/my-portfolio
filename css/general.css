@@ -1,3 +1,13 @@
+/*
+  fundo = #EAF3E7
+  vermelho = #D2232A
+  azul = #25408F
+*/
+
+body {
+  background-color: #EAF3E7;
+}
+
 html, body, main, p, h1{
     margin: 0;
     padding: 0;
@@ -7,24 +17,22 @@ html, body, main, p, h1{
     border: 0;
   }
 
-h1, h2, h3, p{
+h1, h2, h3, p, a, ul, li{
   font-family: sans-serif;
 }
 
-p{
-  font-size: 13px;
+p {
+  font-size: 15px;
+  font-weight: 300;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-nav{
-   background-color: beige;
-}
 
 @media only screen and (min-device-width: 1200px){
-  p{
+  p {
     font-size: 16px;
   }
 }
