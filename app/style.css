@@ -1,0 +1,371 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:100%;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto/Roboto-Regular-webfont.eot');
+    src: url('fonts/roboto/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/roboto/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto/Roboto-Thin-webfont.eot');
+    src: url('fonts/roboto/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto/Roboto-Thin-webfont.woff') format('woff'),
+         url('fonts/roboto/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('fonts/roboto/Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gabriela';
+    src: url('fonts/gabriela/gabriela-regular-webfont.eot');
+    src: url('fonts/gabriela/gabriela-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gabriela/gabriela-regular-webfont.woff2') format('woff2'),
+         url('fonts/gabriela/gabriela-regular-webfont.woff') format('woff'),
+         url('fonts/gabriela/gabriela-regular-webfont.ttf') format('truetype'),
+         url('fonts/gabriela/gabriela-regular-webfont.svg#gabrielaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+p, h1, h2{
+  font-family: 'roboto', Helvetica, Arial, sans-serif;
+  color: #4a4a4a;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+#main-wrapper, #tips-wrapper, #profile-wrapper, #love-wrapper, #tags-wrapper{
+  width: 320px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: white;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#header{
+  background-color: #ff0032;
+  height: 56px;
+  position: fixed;;
+  margin: 0 auto;
+  width: 320px;
+}
+
+#main, #container, #tips-container{
+  padding-left: 16px;
+  padding-right: 5px;
+  overflow-y: auto;
+  overflow-y: auto;
+  height: calc(100% - 56px);
+  position: relative;
+  top: 56px;
+}
+
+#header img {
+  width: 24px;
+  height: 24px;
+}
+
+#container, #tips-container{
+  top: 0;
+}
+
+.header-container{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.icons{
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: center;
+}
+
+.status-bar{
+  background-color: #ff0032;
+  height: 48px;
+  position: relative;
+}
+
+.status-bar-container{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 16px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.status-bar h1{
+  display: inline;
+  font-size: 20px;
+  font-weight: 400;
+  color: #f0f0f0;
+  margin: 0;
+  position: relative;
+  top: -2px;
+}
+
+.arrow{
+  width: 18px;
+  height: 18px;
+  margin-right: 17px;
+}
+
+ul{
+  list-style-type:none;
+  padding-top: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.iten-tag{
+  border: none;
+  height: 95px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.iten-hashtag{
+  position: relative;
+  top: 65px;
+  left: 10px;
+}
+
+.bi{
+  background: url("images/background-bi.png") no-repeat center / 100% 100%;
+}
+
+.camisinha{
+  background: url("images/background-camisinha.png") no-repeat center / 100% 100%;
+}
+
+.iniciante{
+  background: url("images/background-iniciante.png") no-repeat center / 100% 100%;
+}
+
+.gay{
+  background: url("images/background-gay.png") no-repeat center / 100% 100%;
+}
+
+.bi .iten-hashtag{
+  background-color: red;
+}
+
+.camisinha .iten-hashtag{
+  background-color: yellow;
+}
+
+.iniciante .iten-hashtag{
+  background-color: blue;
+}
+
+.gay .iten-hashtag{
+  background-color: green;
+}
+
+li{
+  height: 100%;
+  border-bottom: 1px solid #4a4a4a;
+  padding-bottom: 12px;
+  padding-top: 16px;
+}
+
+li h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.description{
+  font-family: 'gabriela', serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 8px;
+  height: 70px;
+  overflow-y: hidden;
+}
+
+.hashtag{
+  font-size: 12px;
+  font-style: oblique;
+  display: inline;
+  font-weight: 600;
+}
+
+.coracao{
+  width: 19.6;
+  height: 18px;
+  float: right;
+  margin-right: 10px;
+}
+
+.coracao img{
+  width: 19.6;
+  height: 18px;
+  position: relative;
+  top: 2px;
+}
+
+.personalizar-item{
+  border: none;
+  padding-bottom: 14px;
+  padding-top: 14px;
+}
+
+.background-arrow{
+  overflow: hiden;
+  background: url("images/select-arrow.png") no-repeat white;
+  background-size: 18px;
+  background-position: calc(100% - 10px);
+  z-index: 1000;
+  width: 250px;
+  height: 40px;
+  margin-top: 9px;
+}
+
+.opcoes-select {
+  border: 1px solid #4a4a4a;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  width: 250px;
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.span-arrow{
+  height: 100%;
+  width: 20px;
+  display: inline-block;
+  top: -8px;
+  position: relative;
+}
+
+.title-tip{
+  display: inline-block;
+  width: 195px;
+  height: 100%;
+}
+
+.img-tip{
+  position: relative;
+  top: -8px;
+}
+
+.img-tip-heart{
+  padding-left: 16px;
+  top: -7px;
+}
+
+.data-tip{
+  width: 100%;
+  padding-left: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.data-tip em{
+  font-weight: bold;
+}
+
+.tip-image-container{
+  margin-top: 10px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.tip-image-container img{
+  width: 293px;
+  /*height: 179px*/
+}
+
+#container h1, #tips-container h1{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.tip-text{
+  margin-top: 15px;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'gabriela', serif;
+  padding-right: 10px;
+}
+
+br{
+   display: block;
+   margin: 6px 0;
+}
+
+
+@media only screen and (min-device-width: 360px){
+  #main-wrapper, #tips-wrapper, #profile-wrapper, #love-wrapper, #tags-wrapper, #header{
+    width: 360px;
+  }
+
+  #main, #container, #tips-container{
+    padding-right: 14px;
+  }
+
+  .img-tip{
+    right: -40px;
+  }
+
+  .tip-image-container img{
+    width: 330px;
+  }
+
+  .background-arrow, .opcoes-select{
+    width: 300px;
+  }
+}

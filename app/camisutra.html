@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>App interativo</title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="content.js" ></script>
+    <script type="text/javascript" src="script.js" ></script>
+    <meta name="description" content="Versao interativa simulando app" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+  </head>
+  <body>
+    <div id="main-wrapper">
+      <div id="header">
+        <div class="header-container">
+          <span class="icons"><img id="js--link-tags" src="images/tag.png" alt="Tag" /></span><span class="icons"><img id="js--link-profile" src="images/perfil.png" alt="Perfil" /></span><span class="icons"><img id="js--link-love" src="images/white-full.png" alt="Favoritos" /></span>
+        </div>
+      </div>
+
+      <div id="main">
+        <ul id="js--main-list">
+
+        </ul>
+      </div>
+    </div>
+
+    <div id="tips-wrapper" class="hidden">
+      <div class="status-bar">
+        <div class="status-bar-container">
+          <span class="span-arrow"><img class="arrow" id="arrow-tips" src="images/arrow.png" alt="Flecha"/></span>
+          <div class="title-tip">
+            <p class="data-tip">postado a: <em>5 dias</em></p>
+            <p class="data-tip">dificuldade: <em>média</em></p>
+          </div>
+          <img class="img-tip img-tip-share" src="images/share.png" alt="Compartilhar" />
+          <img id="js--img-tip-heart" class="img-tip img-tip-heart" src="#" alt="Coracao" />
+        </div>
+      </div>
+
+      <div id="tips-container">
+        <div class="tip-image-container"><img src="images/camisinha-boca.jpeg" alt="Colocando a camisinha com a boca"/></div>
+
+        <h1>Colocando camisinha com a boca</h1>
+        <p class="hashtag">#camisinha #ousada #gay #hétero #bi</p>
+
+        <p class="tip-text">
+          Segure a pontinha do preservativo entre a língua e o céu da boca e dê uma giradinha no anel (ainda enrolado) para tirar o ar. A parte da camisinha que será desenrolada deve ficar para fora, cobrindo os lábios.
+          <br/>
+          Vista o pênis com o preservativo até sua base. Não esqueça: os testículos não devem ser cobertos! ;)
+        </p>
+
+      </div>
+
+    </div>
+
+    <div id="profile-wrapper" class="hidden">
+      <div class="status-bar">
+        <div class="status-bar-container">
+          <span><img id="arrow-profile" class="arrow" src="images/arrow.png" alt="Flecha"/></span>
+          <h1>Personalizar</h1>
+        </div>
+      </div>
+
+      <div id="container">
+        <ul>
+          <li class="personalizar-item">
+            <h2>Sexo</h2>
+            <div class="background-arrow">
+              <select class="opcoes-select">
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+              </select>
+            </div>
+          </li>
+
+          <li class="personalizar-item">
+            <h2>Identidade de Gênero</h2>
+            <div class="background-arrow">
+              <select class="opcoes-select">
+                <option>Homem</option>
+                <option>Mulher</option>
+                <option>Ambos</option>
+                <option>Nenhum</option>
+                <option>Outro</option>
+              </select>
+            </div>
+          </li>
+
+          <li class="personalizar-item">
+            <h2>Orientação Sexual</h2>
+            <div class="background-arrow">
+              <select class="opcoes-select">
+                <option>Heterosexual</option>
+                <option>Homosexual</option>
+                <option>Bisexual</option>
+                <option>Outro</option>
+              </select>
+            </div>
+          </li>
+
+          <li class="personalizar-item">
+            <h2>Idade</h2>
+            <div class="background-arrow">
+              <select class="opcoes-select">
+                <option>Menor que 13 </option>
+                <option>Entre 13 e 18</option>
+                <option>Entre 18 e 30</option>
+                <option>Entre 30 e 50</option>
+                <option>Maior que 50</option>
+              </select>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div id="love-wrapper" class="hidden">
+      <div class="status-bar">
+        <div class="status-bar-container">
+          <span><img class="arrow" id="arrow-love" src="images/arrow.png" alt="Flecha"/></span>
+          <h1>Favoritos</h1>
+        </div>
+      </div>
+
+      <div id="container">
+        <ul id="js--favorite-list">
+
+        </ul>
+      </div>
+
+    </div>
+
+    <div id="tags-wrapper" class="hidden">
+      <div class="status-bar">
+        <div class="status-bar-container">
+          <span><img class="arrow" id="arrow-tags" src="images/arrow.png" alt="Flecha"/></span>
+          <h1>Tags</h1>
+        </div>
+      </div>
+
+      <div id="container">
+        <ul class="list-tag">
+          <li class="iten-tag camisinha">
+            <span class="iten-hashtag">#camisinha</span>
+          </li>
+
+          <li class="iten-tag iniciante">
+            <span class="iten-hashtag">#iniciante</span>
+          </li>
+
+          <li class="iten-tag bi">
+            <span class="iten-hashtag">#dsts</span>
+          </li>
+
+          <li class="iten-tag gay">
+            <span class="iten-hashtag">#gay</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
